@@ -1,0 +1,193 @@
+.hidden {
+  display: none;
+}
+
+#girl-room,
+#boy-room,
+#houses,
+#painting-close,
+#doodles-close,
+#shelf-close,
+#phone-close,
+#sketchbook-close {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.intro {
+  font-family: poppins;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+#music-credit{
+  font-family: poppins;
+  font-size: 8px;
+  position: absolute;
+  top: 365px;
+  right: 680px;
+}
+
+h1,
+p {
+  color: #fff
+}
+
+.box {
+  font-family: poppins;
+  font-weight: 800;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  background-color: #fefeff;
+  min-width: 5px;
+  min-height: 2px;
+  width: 5vw;
+  height: 2vw;
+  margin: 1vw;
+  padding: 3px;
+  text-align: center;
+  line-height: 2vw;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+
+  position: fixed;
+  bottom: 5px;
+  left: 10px;
+}
+
+.box:hover {
+  background-color: #d8d8d8;
+  color: #000;
+  cursor: pointer;
+}
+
+/*Houses*/
+.h-1,
+.h-2 {
+  fill: none;
+  stroke: #000;
+  stroke-miterlimit: 100;
+}
+
+.h-2 {
+  stroke-width: 2px;
+}
+
+.h-3 {
+  fill: #626363;
+}
+
+.h-3,
+.h-4,
+.h-5 {
+  stroke-width: 0px;
+}
+
+.h-4 {
+  fill: #3f3528;
+}
+
+.h-5 {
+  fill: #45485d;
+}
+
+/*boyroom*/
+.br-1 {
+  fill: none;
+  stroke: #000;
+  stroke-miterlimit: 100;
+}
+
+.br-2,
+.br-3,
+.br-4 {
+  stroke-width: 0px;
+}
+
+.br-3 {
+  fill: #cfcab8;
+}
+
+.br-4 {
+  fill: #353534;
+}
+
+.br-5 {
+  fill: #fff;
+  font-family: Poppins-Medium, Poppins;
+  font-size: 6px;
+  font-weight: 500;
+}
+
+/*girlroom*/
+.cls-1 {
+  stroke-width: 3px;
+}
+
+.cls-1,
+.cls-2,
+.cls-3,
+.cls-4,
+.cls-5 {
+  fill: none;
+  stroke: #000;
+  stroke-miterlimit: 100;
+}
+
+.cls-6 {
+  font-family: Poppins-Medium, Poppins;
+  font-size: 5px;
+  font-weight: 500;
+}
+
+.cls-6,
+.cls-7,
+.cls-8 {
+  fill: #fff;
+}
+
+.cls-3 {
+  stroke-width: .25px;
+}
+
+.cls-4 {
+  stroke-width: .26px;
+}
+
+.cls-9,
+.cls-10,
+.cls-7,
+.cls-11,
+.cls-12,
+.cls-13 {
+  stroke-width: 0px;
+}
+
+.cls-10 {
+  fill: #3d8ac0;
+}
+
+.cls-5 {
+  stroke-width: 2px;
+}
+
+.cls-11 {
+  fill: #c11717;
+}
+
+.cls-8 {
+  font-family: Poppins, Poppins;
+  font-size: 12px;
+}
+
+.cls-12 {
+  fill: #b3bbbe;
+}
+
+.cls-13 {
+  fill: #30261b;
+}
